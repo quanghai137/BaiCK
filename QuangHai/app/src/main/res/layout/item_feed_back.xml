@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginBottom="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/profile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="QuangHai123"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toEndOf="@+id/img"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.355"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/star1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/star" />
+
+        <ImageView
+            android:id="@+id/star2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/star" />
+
+        <ImageView
+            android:id="@+id/star3"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/star" />
+
+        <ImageView
+            android:id="@+id/star4"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/star" />
+
+        <ImageView
+            android:id="@+id/star5"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/star" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/mota"
+        android:layout_width="274dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="12dp"
+        android:textStyle="bold"
+        android:text="Giao đúng mẫu mình chọn nên rất ưng. Đóng gói cẩn thận. CHúc shop mua may bán đắt."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

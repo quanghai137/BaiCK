@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "763715395949",
+    "project_id": "quanghai-97d2a",
+    "storage_bucket": "quanghai-97d2a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763715395949:android:9a697f40970c8fe9b4fa64",
+        "android_client_info": {
+          "package_name": "com.example.quanghai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763715395949-sahkug59okrusivakg2km8d82d8tvcrp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8O8bjOC25ApJoODQkgAdMkS6bL6jeKUE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "763715395949-sahkug59okrusivakg2km8d82d8tvcrp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
